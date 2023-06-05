@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIMAVERA Business Software Solutions</title>
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/js/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <section class="headerContainer">
+            <section class="logoIcons">
+                <a href="https://pt.primaverabss.com/pt/" target="blank">
+                    <img src="/assets/images/logotipo.png" alt="Logótipo">
+                </a>
+                <section class="icons">
+                    <span id="welcomeMessage"></span>
+                    <label for="searchBar"><input id="searchBar" type="text"></label>
+                    <i id="searchIcon" class="fa-solid fa-magnifying-glass" title="Pesquisa"></i>
+                    <i id="loginIcon" class="fa-regular fa-user" title="Login"></i>
+                    <i id="hamburger" class="fa-solid fa-bars" title="Menu"></i>
+                </section>
+            </section>
+            <nav>
+                <a href="#">CONTABILISTAS</a>
+                <a href="#">SETOR PRIVADO</a>
+                <a href="#">SETOR PÚBLICO</a>
+                <a href="#">FORMAÇÃO</a>
+                <a href="#">PARCEIROS</a>
+                <a href="#">CARREIRAS</a>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="bannerContainer">
+            <img id="mainImg" src="/assets/images/fundoBanner.jpg" alt="Imagem_de_Fundo">
+            <img id="otherImg" src="/assets/images/computador.png" alt="Computador">
+            <!-- Usei h3 e h6 para títulos e subtítulos porque tendo em conta os tamanhos de letra definidos no enunciado pareceram-me as proporções mais equivalentes -->
+            <h3>TECNOLOGIA PARA VENCER</h3>
+            <h6>Conheça os casos de sucesso PRIMAVERA</h6>
+            <p>Na linha da frente na digitilização de empresas</p>
+            <a href="https://pt.primaverabss.com/pt/pagina/tecnologia-para-vencer/" target="blank"><button
+                    id="btnKnowMore">SAIBA MAIS ></button></a>
+        </section>
+        <br><br>
+        <section class="missionContainer">
+            <h6 class="title">Missão</h6>
+            <section class="missionRow">
+                <aside>
+                    <img src="/assets/images/missao.jpg" alt="Missão">
+                </aside>
+                <section class="mission">
+                    <p>
+                        <strong>
+                            Simplificar a vida nas organizações, aumentando a criação de valor, é a nossa grande missão.
+                        </strong>
+                    </p>
+                    <p>
+                        Desafiar o desconhecido. Explorar possibilidades. Transpor barreiras. Inovar. São estas as
+                        motivações
+                        que desde 1993 nos conduzem na busca de soluções de gestão inovadoras que simplificam a vida nas
+                        organizações.
+                    </p>
+                    <p>
+                        A paixão pela inovação na gestão empresarial está no ADN da PRIMAVERA. Um entusiasmo contagiante
+                        que
+                        colocamos ao serviço das organizações, disponibilizando-lhes um leque crescente de soluções de
+                        gestão
+                        que agilizam as operações e aumentam a rentabilidade do negócio.
+                    </p>
+                    <p>
+                        Acreditamos na força das ideias. Auxiliamos a sua concretização. Impulsionamos os resultados.
+                        Defendemos
+                        que com a tecnologia certa, crescer é o caminho. Do mais pequeno micronegócio a uma grande
+                        multinacional, disponibilizamos soluções ajustadas, ágeis e funcionais que dão mais força ao
+                        negócio.
+                    </p>
+                    <a href="https://pt.primaverabss.com/fotos/editor2/brochurainstitucional_2017_web2.pdf"
+                        target="blank">» Conheça a nossa brochura institucional</a>
+                </section>
+            </section>
+        </section>
+        <hr>
+        <br>
+        <section class="teamContainer">
+            <h6 class="title">Equipa</h6>
+            <section class="teamMembers">
+                <section id="teamMember1" class="teamMember">
+                    <img class="pic" src="/assets/images/foto1.png" alt="Membro_Equipa1">
+                    <section class="personalData">
+                        <p>Daniela Alves</p>
+                        <p>Web Developer</p>
+                    </section>
+                </section>
+                <section id="teamMember2" class="teamMember">
+                    <img class="pic" src="/assets/images/foto2.png" alt="Membro_Equipa2">
+                    <section class="personalData">
+                        <p>Manuela Ribeiro</p>
+                        <p>Front-end developer</p>
+                    </section>
+                </section>
+                <section id="teamMember3" class="teamMember">
+                    <img class="pic" src="/assets/images/foto3.png" alt="Membro_Equipa3">
+                    <section class="personalData">
+                        <p>Bruna Silva</p>
+                        <p>Designer</p>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <hr>
+        <br>
+        <section class="sliderContainer">
+            <h6 class="title">Oferta Formativa</h6>
+            <section class="slider">
+                <section class="slide fade">
+                    <img src="/assets/images/slider1.jpg" alt="PRIMAVERA_Academy">
+                    <h3 id="slideTitle1">PRIMAVERA Academy</p>
+                        <h6 id="slideSubtitle1">Juntos seremos mais fortes!</h6>
+                        <p id="slideText1">Aposte em novas competências</p>
+                </section>
+                <section class="slide fade">
+                    <img src="/assets/images/slider2.jpg" alt="Online_Seminar">
+                    <h3 id="slideTitle2">Online Seminar</h3>
+                    <h6>Legislação Laboral de A a Z</h6>
+                    <p>Atualize os seus conhecimentos</p>
+                </section>
+                <section class="slide fade">
+                    <img src="/assets/images/slider3.jpg" alt="RE_Start">
+                    <h3 id="slideTitle3">RE_Start</h3>
+                    <h6>CODE Learning Academy</h6>
+                    <p>Juntos desenvolvemos o teu percurso de sucesso como Developer</p>
+                </section>
+                <section class="slide fade">
+                    <img src="/assets/images/slider4.jpg" alt="Marketing_Digital">
+                    <h3 id="slideTitle4">Marketing Digital</h3>
+                    <h6>Aproveite Desconto 20%</h6>
+                    <p>Virtual Classroom (Online)</p>
+                </section>
+                <section class="slide fade">
+                    <img src="/assets/images/slider5.jpg" alt="Programa_SCORE">
+                    <h3 id="slideTitle5">Programa SCORE</h3>
+                    <h6>Online | Virtual Classroom</h6>
+                    <p>Certifique-se como Profissional PRIMAVERA</p>
+                </section>
+            </section>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <section class="footerContainer">
+            <section class="column">
+                <p><strong>PRIMAVERA</strong></p>
+                <a href="#">Sobre a PRIMAVERA</a>
+                <a href="#">Responsabilidade Social</a>
+                <a href="#">Recrutamento</a>
+                <a href="#">Os nossos Clientes</a>
+                <a href="#">Referral Members</a>
+                <a href="#">Consultoria</a>
+                <a href="#">Suporte</a>
+                <a href="#">Blog</a>
+                <a href="#">Developers Network</a>
+                <a href="#">HelpCenter</a>
+                <a href="#">MarketPlace</a>
+            </section>
+            <section class="column">
+                <p><strong>EDUCATION</strong></p>
+                <a href="#">Teaching with Software</a>
+                <a href="#">Education Talks</a>
+                <a href="#">Education Labs</a>
+                <a href="#">Study Visits</a>
+                <a href="#">Formação de Docentes</a>
+            </section>
+            <section class="column">
+                <p><strong>NOTICIAS E EVENTOS</strong></p>
+                <a href="#">Press Releases</a>
+                <a href="#">Eventos e Webinars</a>
+                <a href="#">Blog</a>
+                <a href="#">Newsletter</a>
+            </section>
+            <section class="column">
+                <p><strong>CONTACTOS</strong></p>
+                <a href="#">Como Chegar</a>
+                <a href="#">Contactar agora</a>
+            </section>
+            <section class="column">
+                <p><strong>SITE</strong></p>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Utilização</a>
+                <a href="#">Mapa do Site</a>
+            </section>
+        </section>
+    </footer>
+    <section class="cookiesPopup">
+        <section class="cookiesPopupContent">
+            <p>Este website utiliza cookies para melhorar a sua experiência de navegação. Para continuar a navegar, deve
+                ler e aceitar os <a href="#">Termos e Condições</a>.</p>
+            <button id="btnReadAndConsent">LI E ACEITO ></button>
+        </section>
+    </section>
+    <section id="loginModal">
+        <section id="loginModalContent">
+            <h4><strong>Controlo de acessos</strong></h4>
+            <p id="error"></p>
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="text" id="email">
+            </p>
+            <p>
+                <label for="password">Senha:</label>
+                <input type="text" id="password">
+            </p>
+            <button id="btnValidate" class="btn btn-primary">Validar</button>
+            <span id="btnClose">X</span>
+        </section>
+    </section>
+    <section class="backToTopContainer">
+        <img src="/assets/images/setacima.png" alt="Seta" title="Ir para o topo">
+    </section>
+    <section class="phoneContainer">
+        <img src="/assets/images/telefone.png" alt="Contacto" title="Contacto">
+        <p>919 204 462</p>
+    </section>
+
+    <script src="/project.js"></script>
+</body>
+
+</html>
